@@ -13,10 +13,16 @@ Inspired by [Ximin Luo](https://github.com/infinity0/pubkeys).
 
 # PGP / GPG Keys
 `Taowa_Munene-Tardif.asc`
+`Phone.asc`
+`Windows.asc`
 
+The master key for my main key (`Taowa_Munene-Tardif.asc`) lives
+offline and is manipulated using Tails running from a CD-ROM.
+My subkeys live on a security token.
 
-My master key lives offline and is manipulated using Tails running from
-a CD-ROM. My subkeys live on a security token.
+You'll also find `Phone.asc` and `Windows.asc`, which live online on my
+phone and Windows machines. Note that these keys should **never**
+certify keys that aren't my main key. If they do, please let me know.
 
 
 ## Certification Policy
