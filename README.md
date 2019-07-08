@@ -1,9 +1,10 @@
 # Public Keys
 
-This repository contains my various public keys as well as related 
+This repository contains my various public keys as well as related
 documents. All commits should be signed using my current PGP key.
 Its validity can be verified [using the web of trust](https://pgp.cs.uu.nl/),
-[my website](https://taowa.ca/key.asc) and the [Debian keyring](https://keyring.debian.org/).
+[my website](https://taowa.ca/key.asc) and the
+[Debian keyring](https://keyring.debian.org/).
 
 
 
@@ -19,12 +20,12 @@ a CD-ROM. My subkeys live on a security token.
 
 
 ## Certification Policy
-I will certify (sign) a User ID when I am reasonably certain that it is 
+I will certify (sign) a User ID when I am reasonably certain that it is
 controlled by the person or organization named on it. This is generally
 established by having met a person multiple times in public settings
 and having been presented with identity documents at some point, but I
 am willing to and have signed aliases when those using them are
-recognized under them. The certification will be emailed (or sent by 
+recognized under them. The certification will be emailed (or sent by
 XMPP for Jabber addresses) to the email or JID on the User ID. I do not
 certify User IDs that do not have an email or JID.
 
