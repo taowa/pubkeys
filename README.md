@@ -15,6 +15,7 @@ Inspired by [Ximin Luo](https://github.com/infinity0/pubkeys).
 `Taowa_Munene-Tardif.asc`
 `Phone.asc`
 `Windows.asc`
+`travelphone.asc`
 
 The master key for my main key (`Taowa_Munene-Tardif.asc`) lives
 offline and is manipulated using Tails running from a CD-ROM.
@@ -24,6 +25,9 @@ You'll also find `Phone.asc` and `Windows.asc`, which live online on my
 phone and Windows machines. Note that these keys should **never**
 certify keys that aren't my main key. If they do, please let me know.
 
+On occasion you may find a `travelphone.asc`. This is the key for my
+phone while I'm travelling. If it's there, I probably won't be able to
+reply to you if messages are encrypted to `Phone.asc`.
 
 ## Certification Policy
 I will certify (sign) a User ID when I am reasonably certain that it is
