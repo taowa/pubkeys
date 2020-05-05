@@ -7,14 +7,12 @@ Its validity can be verified [using the web of trust](https://pgp.cs.uu.nl/),
 [Debian keyring](https://keyring.debian.org/).
 
 
-
 Inspired by [Ximin Luo](https://github.com/infinity0/pubkeys).
 
 
 # PGP / GPG Keys
 `Taowa_Munene-Tardif.asc`
 `Phone.asc`
-`Windows.asc`
 `travelphone.asc`
 
 The master key for my main key (`Taowa_Munene-Tardif.asc`) lives
@@ -25,9 +23,9 @@ My subkeys live on a security token.
 securely with me, Signal or XMPP is much more likely to get you a 
 prompt response.**
 
-You'll also find `Phone.asc` and `Windows.asc`, which live online on my
-phone and Windows machines. Note that these keys should **never**
-certify keys that aren't my main key. If they do, please let me know.
+You'll also find `Phone.asc`, which lives on my phone and Windows
+machines. Note that these keys should **never** certify keys that
+aren't my main key. If they do, please let me know.
 
 On occasion you may find a `travelphone.asc`. This is the key for my
 phone while I'm travelling. If it's there, I probably won't be able to
@@ -48,9 +46,7 @@ certify User IDs that do not have an email or JID.
 `ssh_keys.pub`
 
 My primary SSH key is the same as my GPG subkey, and is thus on a
-security token. You can also get it by running
-`gpg --export-ssh-key (my gpg key fingerprint)`. It is the first line
-of the file.
+security token. The file containing it should be detach-signed.
 
 My backup SSH key is a traditional SSH key. It is stored offline. If
 granting me any form of long-term access to a machine, please
@@ -70,3 +66,10 @@ C95D3570 0C9A1D61 E355F6B2 680751B5 7F769D3B F91B9F83 600756EC D08A6362
 05 50 c9 cc 82 92 1a 34 95 a2 08 a1 e8 ab 36 11 31
 0b 08 b1 92 d0 a2 e2 1e 81 42 a3 d6 35 c7 92 56
 
+# Signal
+My portion of my Signal safety numbers is:
+
+31022 88968 06412 09527 43780 76098
+
+It should appear either at the beginning or the middle of the safety
+number shown by the app. Your portion will make up the other half.
