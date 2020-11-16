@@ -2,17 +2,15 @@
 
 This repository contains my various public keys as well as related
 documents. All commits should be signed using my current PGP key.
-Its validity can be verified [using the web of trust](https://pgp.cs.uu.nl/),
+Its validity can be verified using the web of trust,
 [my website](https://taowa.ca/key.asc) and the
 [Debian keyring](https://keyring.debian.org/).
-
 
 Inspired by [Ximin Luo](https://github.com/infinity0/pubkeys).
 
 
 # PGP / GPG Keys
 `Taowa_Munene-Tardif.asc`
-`Phone.asc`
 `travelphone.asc`
 
 The master key for my main key (`Taowa_Munene-Tardif.asc`) lives
@@ -23,13 +21,9 @@ My subkeys live on a security token.
 securely with me, Signal or XMPP is much more likely to get you a 
 prompt response.**
 
-You'll also find `Phone.asc`, which lives on my phone and Windows
-machines. Note that these keys should **never** certify keys that
-aren't my main key. If they do, please let me know.
-
 On occasion you may find a `travelphone.asc`. This is the key for my
-phone while I'm travelling. If it's there, I probably won't be able to
-reply to you if messages are encrypted to `Phone.asc`.
+phone while I'm travelling.
+
 
 ## Certification Policy
 I will certify (sign) a User ID when I am reasonably certain that it is
@@ -56,19 +50,14 @@ add both to `authorized_keys`.
 # OMEMO Fingerprints
 My OMEMO fingerprints are:
 ```
-9E44A1DA 9291804F F2926645 AF74484E E90530D2 E86AFE3F 8A7310AC A4007642
 C95D3570 0C9A1D61 E355F6B2 680751B5 7F769D3B F91B9F83 600756EC D08A6362
-E34E0E31 9E2EC874 13240C15 72310F55 39ED5469 2EB1B818 AD3C6930 512F706E
 ```
 
-# SMS (Silence)
-05 50 c9 cc 82 92 1a 34 95 a2 08 a1 e8 ab 36 11 31
-0b 08 b1 92 d0 a2 e2 1e 81 42 a3 d6 35 c7 92 56
 
 # Signal
 My portion of my Signal safety numbers is:
 
 31022 88968 06412 09527 43780 76098
 
-It should appear either at the beginning or the middle of the safety
+It should appear either at the beginning or the end of the safety
 number shown by the app. Your portion will make up the other half.
